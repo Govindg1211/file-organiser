@@ -1,27 +1,130 @@
-# file-organiser
+# File Organizer Application - User Manual
 
-File Organizer Project Description:
-The File Organizer is a Python application designed to help users efficiently manage and organize their files within a specified directory. This application categorizes files into different types such as Videos, Audios, Documents, and Miscellaneous, based on their extensions.
+Effortlessly organize your files into appropriate folders with the File Organizer application.
 
-Key Features:
-Directory Input: Users can specify the directory where the files they want to organize are located.
-File Type Selection: Users can select which types of files they want to organize (e.g., Videos, Audios, Documents) and can also choose to move files that do not fit into these categories into a "Miscellaneous" folder.
-Automatic Folder Creation: The application automatically creates folders for each selected file type if they do not already exist.
-File Movement: The program moves files from the specified directory into their respective folders based on their file extensions.
-User-Friendly Interface: The application features a graphical user interface (GUI) built with Tkinter, making it easy for users to interact with.
+---
 
-Prerequisites:
-Before running the File Organizer application, ensure you have the following:
-Python: Make sure Python is installed on your machine (preferably Python 3.x).
-Tkinter: This library is included with standard Python installations, but if you're using a minimal installation, you might need to install it separately.
-Operating System Compatibility: The script is designed to work on both Windows and Unix-like systems (Linux/Mac).
+## Prerequisites & Requirements
 
-Required Libraries:
-The following libraries are used in this project:
-os: This module provides a way of using operating system-dependent functionality like reading or writing to the file system.
-tkinter: This module is used for creating the GUI of the application.
-tkinter.messagebox: This submodule is used for displaying message boxes to inform the user about success or errors.
-tkinter.PhotoImage: This class is used for handling images in the GUI.
+Before you begin, make sure you have the following installed:
 
-Conclusion:
-The File Organizer project is a practical tool for anyone looking to declutter their digital workspace by automatically sorting files into designated folders based on their types. With its user-friendly interface and straightforward functionality, users can quickly organize their files without hassle.
+- *Python 3.x* or higher
+- *Libraries:*
+    - tkinter
+    - pillow
+
+---
+
+## Features
+
+The File Organizer offers the following key features:
+
+- *Automatic File Sorting*: Sorts files into categories like Videos, Audios, Documents, and more.
+- *Customizable Folder Creation*: Automatically creates folders for each file type in the specified directory.
+- *Supports Multiple File Formats*: Supports common file extensions for various media types such as videos, audios, and documents.
+- *Cross-Platform Support*: Compatible with both Windows and Linux operating systems.
+
+---
+
+## Installation Steps
+
+Follow these steps to get the File Organizer application running:
+
+1. *Step 1:* Clone or download the repository to your local machine.
+
+    bash
+    git clone https://github.com/Govindg1211/file-organizer.git
+    
+
+2. *Step 2:* Navigate to the project directory.
+
+    bash
+    cd file-organizer
+    
+
+3. *Step 3:* (Optional but recommended) Create a virtual environment.
+
+    bash
+    python -m venv venv
+    
+
+4. *Step 4:* Activate the virtual environment:
+    - *Windows:*
+
+        bash
+        venv\Scripts\activate
+        
+
+    - *Linux/macOS:*
+
+        bash
+        source venv/bin/activate
+        
+
+5. *Step 5:* Install the required dependencies.
+
+    bash
+    pip install -r requirements.txt
+    
+
+6. *Step 6:* Run the application.
+
+    bash
+    python file_organizer.py
+    
+
+---
+
+## How to Use the File Organizer
+
+Once the application is set up, follow these steps to organize your files:
+
+1. *Step 1:* Open the application by running the Python script.
+2. *Step 2:* In the application window, enter the directory path where the files are located.
+3. *Step 3:* Select the file categories you want to organize (Videos, Audios, Documents, etc.).
+4. *Step 4:* Click the "Organize Files" button to move files into appropriate folders based on their type.
+
+---
+
+## Screenshots
+
+Here are some screenshots of the File Organizer in action:
+
+<div style="display: flex; justify-content: center; gap: 50px;">
+
+   <img src="pics/file1.png" alt="File organiser in Action" width="500" height="400" />
+
+  <img src="pics/file2.png" alt="File Organiser in Action" width="500" height="400" />
+
+</div>
+
+---
+
+## Troubleshooting
+
+If you encounter any issues, here are some common solutions:
+
+- *Problem:* "ModuleNotFoundError" or missing libraries.
+  - *Solution:* Install missing dependencies using:
+
+    bash
+    pip install -r requirements.txt
+    
+
+- *Problem:* The application doesn’t recognize certain file formats.
+  - *Solution:* Check if the file extension is supported. The current version supports common video, audio, and document file types.
+
+---
+
+## Contact Support
+
+If you need additional help, feel free to contact us:
+
+- *Email:* [govindgupta057@gmail.com.com](mailto:govindgupta057@gmail.com)
+- *GitHub Repository:* [https://github.com/Govindg1211/file-organizer](https://github.com/Govindg1211/file-organizer)
+
+We are happy to assist you with any questions or issues you may have!
+
+---
+
+&copy; 2024 File Organizer Application | All Rights Reserved
